@@ -5,6 +5,10 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
+# Disable the warning about non-snake_case crate names.
+#[allow(non_snake_case)]
+
 [dependencies]
 rand = "0.8.5"
 colored = "2.0.4"
