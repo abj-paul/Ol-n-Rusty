@@ -4,7 +4,7 @@ import { getKeypairFromEnvironment } from "@solana-developers/node-helpers";
 
 const keypair = getKeypairFromEnvironment("SECRET_KEY");
 try {
-  const publicKey = new PublicKey("to1yVXiNRMVVgS854Yjj3xB51MTorFrCMz7N8cirbK");
+  const publicKey = new PublicKey(keypair.publicKey);
 
   const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
   const balance = await connection.getBalance(publicKey);

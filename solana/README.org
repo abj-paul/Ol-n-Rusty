@@ -1,0 +1,32 @@
+Each instruction contains an array of accounts that will be read from and/or written to. This is what makes Solana fast - transactions that affect different accounts are processed simultaneously.
+
+Testnet address for Solana labs: 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on
+
+
+    5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on - Solana Labs
+    dDzy5SR3AXdYWVqbDEkVFdvSPCtS9ihF5kJkHCtXoFs - MonkeDAO
+    Ft5fbkqNa76vnsjYNwjDZUXoTWpP7VYm3mtsaQckQADN - Certus One
+    eoKpUABi59aT4rR9HGS3LcMecfut9x7zJyodWWP43YQ - SerGo
+    9QxCLckBiJc783jnMvXZubK4wH86Eqqvashtrwvcsgkv - Algo|Stake
+* Temp
+abhijit@abhijit-H81M-S2PV:~$ solana-keygen new -o /home/abhijit/.config/solana/id.json
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+Enter same passphrase again: 
+
+Wrote new keypair to /home/abhijit/.config/solana/id.json
+=============================================================================
+pubkey: 28isHdQ9CLp6WGmVKBQXb6sPRtU6v96P6snxigzVi51p
+=============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+dolphin loud human success verify cup toast robust project small purse ethics
+=============================================================================
+
+* Frontend
+https://github.com/heavy-duty/wallet-adapter
